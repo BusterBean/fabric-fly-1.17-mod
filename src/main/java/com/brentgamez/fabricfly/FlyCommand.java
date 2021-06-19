@@ -2,7 +2,7 @@ package com.brentgamez.fabricfly;
 
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
-import net.minecraft.command.arguments.EntityArgumentType;
+import net.minecraft.command.argument.EntityArgumentType;
 import net.minecraft.server.command.ServerCommandSource;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.text.Text;
@@ -10,7 +10,7 @@ import net.minecraft.text.TranslatableText;
 
 import java.util.Collection;
 
-import static net.minecraft.command.arguments.EntityArgumentType.getPlayers;
+import static net.minecraft.command.argument.EntityArgumentType.getPlayers;
 import static net.minecraft.server.command.CommandManager.argument;
 import static net.minecraft.server.command.CommandManager.literal;
 
